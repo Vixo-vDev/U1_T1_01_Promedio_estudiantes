@@ -83,6 +83,7 @@ public class App {
         System.out.println("Estudiante 1");
         System.out.println("Nombre: "+ estudiante1.getNombre());
         System.out.println("Promedio: "+ estudiante1.calularPromedio());
+        System.out.println("Matricula: "+ estudiante1.getMatricula());
         if(estudiante1.aprobado()){
             System.out.println("Aprobado");
         }else{
@@ -93,6 +94,7 @@ public class App {
         System.out.println("Estudiante 2");
         System.out.println("Nombre: "+ estudiante2.getNombre());
         System.out.println("Promedio: "+ estudiante2.calularPromedio());
+        System.out.println("Matricula: "+ estudiante2.getMatricula());
         if(estudiante2.aprobado()){
             System.out.println("Aprobado");
         }else{
@@ -103,6 +105,7 @@ public class App {
         System.out.println("Estudiante 3");
         System.out.println("Nombre: "+ estudiante3.getNombre());
         System.out.println("Promedio: "+ estudiante3.calularPromedio());
+        System.out.println("Matricula: "+ estudiante3.getMatricula());
         if(estudiante3.aprobado()){
             System.out.println("Aprobado");
         }else{
@@ -113,6 +116,7 @@ public class App {
         System.out.println("Estudiante 4");
         System.out.println("Nombre: "+ estudiante4.getNombre());
         System.out.println("Promedio: "+ estudiante4.calularPromedio());
+        System.out.println("Matricula: "+ estudiante4.getMatricula());
         if(estudiante4.aprobado()){
             System.out.println("Aprobado");
         }else{
@@ -123,6 +127,7 @@ public class App {
         System.out.println("Estudiante 5");
         System.out.println("Nombre: "+ estudiante5.getNombre());
         System.out.println("Promedio: "+ estudiante5.calularPromedio());
+        System.out.println("Matricula: "+ estudiante5.getMatricula());
         if(estudiante5.aprobado()){
             System.out.println("Aprobado");
         }else{
