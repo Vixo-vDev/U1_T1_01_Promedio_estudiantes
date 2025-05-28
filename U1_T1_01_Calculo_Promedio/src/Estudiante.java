@@ -34,12 +34,12 @@ public class Estudiante {
             suma = suma + notas[j];
         }
 
-        return this.suma= suma/5;
+        return suma/5;
     }
 
     //Método para saber si el promedio es mayora 70, y guardar si es true or false en una variable
     public boolean aprobado(){
-        boolean aprobado = suma >= 70;
+        boolean aprobado = (suma/5)>= 70;
         return aprobado;
     }
 
